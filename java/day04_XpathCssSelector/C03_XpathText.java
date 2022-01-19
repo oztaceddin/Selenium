@@ -14,7 +14,7 @@ public class C03_XpathText {
 
         driver.manage().window().maximize();//alışkanlık haline getir
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-
+          //,
 
         //1- https://the-internet.herokuapp.com/add_remove_elements/ adresine gidin
 

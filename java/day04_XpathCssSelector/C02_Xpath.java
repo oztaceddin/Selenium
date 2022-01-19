@@ -20,7 +20,7 @@ public class C02_Xpath {
 
        driver.get("https://the-internet.herokuapp.com/add_remove_elements/");
 
-
+       //,
 
        //2- Add Element butonuna basin
 

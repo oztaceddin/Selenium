@@ -15,7 +15,7 @@ public class C05_RelativeLocators {
 
         driver.manage().window().maximize();//alışkanlık haline getir
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-
+         //,
         //1 ) https://www.diemol.com/selenium-4-demo/relative-locators-demo.html  adresine gidin
 
        driver.get("https://www.diemol.com/selenium-4-demo/relative-locators-demo.html");

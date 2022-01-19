@@ -15,7 +15,7 @@ public class C04_CssSelector {
 
         driver.manage().window().maximize();//alışkanlık haline getir
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-
+        //,
 
         //1 ) Bir class oluşturun : Locators_css
         //2 ) Main method oluşturun ve aşağıdaki görevi tamamlayın.
