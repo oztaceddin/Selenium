@@ -53,7 +53,7 @@ public class C01_TekrarTesti {
         //için variable oluşturmadan direk locate edip istediğimiz işlemi
         //yapabiliriz
 
-
+       //.
 
 
 
