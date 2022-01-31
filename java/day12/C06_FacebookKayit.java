@@ -34,17 +34,33 @@ public class C06_FacebookKayit  extends TestBase {
 
     WebElement isimelementi=driver.findElement(By.xpath("//input[@name='firstname']"));
 
-    actions.click(isimelementi).
-            keyDown(Keys.TAB).
-            sendKeys("taceddin").
-            keyUp(Keys.TAB).
-            keyDown(Keys.TAB).
-            sendKeys("öz").
-            keyUp(Keys.TAB).
-            keyDown(Keys.TAB).
-            sendKeys("544641566").
-            keyUp(Keys.TAB).
-            keyDown(Keys.TAB).keyUp(Keys.TAB).sendKeys("1234"+Keys.ENTER).perform();
+    actions.click(isimelementi)
+            .sendKeys("taceddin")
+            .sendKeys(Keys.TAB)
+            .sendKeys("öz")
+            .sendKeys(Keys.TAB)
+            .sendKeys("asdf@gmail.com")
+            .sendKeys(Keys.TAB)
+            .sendKeys("asdf@gmail.com")
+            .sendKeys(Keys.TAB)
+            .sendKeys("12qwasQ.")
+            .sendKeys(Keys.TAB)
+            .sendKeys(Keys.TAB)
+            .sendKeys("Jan")
+            .sendKeys(Keys.TAB)
+            .sendKeys("15")
+            .sendKeys(Keys.TAB)
+            .sendKeys("1972")
+            .sendKeys(Keys.TAB)
+            .sendKeys(Keys.TAB)
+            .sendKeys(Keys.ARROW_DOWN)
+            .sendKeys(Keys.TAB)
+            .sendKeys(Keys.TAB)
+            .sendKeys(Keys.TAB)
+            .sendKeys(Keys.TAB)
+            .sendKeys(Keys.ENTER)
+            .perform();
+
 
 
 
