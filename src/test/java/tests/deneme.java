@@ -1,7 +1,7 @@
 package tests;
 
-public class deneme3 {
+public class deneme {
     public static void main(String[] args) {
-        System.out.println("0202");
+        System.out.println("xv");
     }
 }
