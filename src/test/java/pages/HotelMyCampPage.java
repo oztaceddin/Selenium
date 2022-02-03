@@ -41,6 +41,19 @@ public class HotelMyCampPage {
     public  WebElement girisYapilamadi;
 
 
+    @FindBy(xpath="//span[text()='ListOfUsers']")
+    public WebElement basariliGirisYaziElementi;
+
+
+    public void bekle(int saniye){
+        try {
+            Thread.sleep(saniye*1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+
 
 
 
