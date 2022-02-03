@@ -36,6 +36,9 @@ public class HotelMyCampPage {
     public WebElement loginBox;
 
 
+   @FindBy(xpath = "//div[@class='validation-summary-errors']")
+
+    public  WebElement girisYapilamadi;
 
 
 
