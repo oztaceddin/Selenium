@@ -75,14 +75,30 @@ public class C02_Webtables {
 
     @Test(priority = 3)
     public void printRows() {
+        
+       
 
         //● printRows( ) metodu oluşturun //tr
-      //  hmcWebTablePage=new HMCWebTablePage();
+        hmcWebTablePage=new HMCWebTablePage();
 
         //            ○ table body’sinde bulunan toplam satir(row) sayısını bulun.
+
+        System.out.println(hmcWebTablePage.satirlarListesi.size());
+        
+
         //            ○ Table body’sinde bulunan satirlari(rows) konsolda yazdırın.
+      
+      List<WebElement>  satirlaWebelementlerListesi=hmcWebTablePage.satirlarListesi;
+
+        for (WebElement each:satirlaWebelementlerListesi
+             ) {
+            System.out.println(each.getText());
+        }
+      
+      
         //            ○ 4.satirdaki(row) elementleri konsolda yazdırın.
 
+        System.out.println("4.satir :"+satirlaWebelementlerListesi.get(3).getText());
 
         Driver.closeDriver();
 
