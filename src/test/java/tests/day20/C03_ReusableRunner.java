@@ -1,13 +1,7 @@
 package tests.day20;
 
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 
 public class C03_ReusableRunner {
 
@@ -21,7 +15,7 @@ public class C03_ReusableRunner {
 
         String expectedData="Azerbaycan";
 
-        String actualData=ReusableMethods.hucreGetir(path,"Sayfa1",11,2).toString();
+        String actualData= ReusableMethods_Excel.hucreGetir(path,"Sayfa1",11,2).toString();
 
         Assert.assertEquals(actualData,expectedData);
     }

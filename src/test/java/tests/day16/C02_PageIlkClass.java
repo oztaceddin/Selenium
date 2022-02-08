@@ -45,7 +45,7 @@ public class C02_PageIlkClass {
 
     }
 
-@Test
+@Test(groups = {"miniRegression","smoke"})
     public void test02(){
 
         //amazona gidelim

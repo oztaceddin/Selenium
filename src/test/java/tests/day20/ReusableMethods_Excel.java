@@ -1,19 +1,15 @@
 package tests.day20;
 
-import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.security.Key;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class ReusableMethods {
+public class ReusableMethods_Excel {
 
 
     // bir method olusturalim

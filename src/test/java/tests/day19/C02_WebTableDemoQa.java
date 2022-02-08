@@ -10,7 +10,7 @@ public class C02_WebTableDemoQa {
     //Bir Class olusturun D19_WebtablesHomework
 
 
-    @Test
+    @Test(groups = {"smoke","regression"})
     public void demoqaTest() {
 
         DemoqaPage demoqaPage = new DemoqaPage();

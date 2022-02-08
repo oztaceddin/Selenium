@@ -8,8 +8,8 @@ public class C04_hotelMyCampPositivelLogin {
 
 
 
-    @Test
-    public void ppzitifLoginTesti(){
+    @Test(groups = {"miniRegression", "smoke"})
+    public void pozitifLoginTesti(){
 
 
 

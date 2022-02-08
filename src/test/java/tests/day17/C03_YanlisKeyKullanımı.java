@@ -12,7 +12,9 @@ public class C03_YanlisKeyKullanımı {
     public void  test01(){
 
 
-    Driver.getDriver().get(ConfigReader.getProperty("HMCUrlr"));
+    Driver.getDriver().get(ConfigReader.getProperty("HMCUrl"));
+
+    //Driver.getDriver().get(ConfigReader.getProperty("HMCUrlrr"));
 
      //HMCUrl yerine  HMCUrlr  yazarsak yanı hatalı giriş olursa
     //eger KEY olarak girdiğimiz string configuration.properties dosyasında yoksa
