@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="method calıstırma">
+    <test name="otel">
+        <classes>
+            <class name="tests.day18.C02_Webtables">
+                <methods>
+                    <exclude name="table"></exclude>
+                    <!--
+                    method seçimi yapılırken
+                    include: seçilirse geri kalanlar exclude gibi olur
+                    exclude seçilirse geriye kalanlar include olur
+
+                    -->
+
+                </methods>
+            </class>
+            <class name="tests.day19.C01_WebtabledinamikLocate">
+
+                <methods>
+                    <include name="satirYazdirTesti"></include>
+                </methods>
+
+            </class>
+
+        </classes>
+    </test>
+</suite>
+
+
+<!-- eger bir test içerisinde birden fazla hiyerarşi oluşturmamız gerekirse
+ uygun kırılma noktası belirleyip oradan hiyerarşi yeniden oluştura biliriz-->

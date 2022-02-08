@@ -19,13 +19,13 @@ public class C05_ExceliMapeYukleme {
 
         String sayfaAdi="sayfa1";
 
-        System.out.println(ReusableMethods.mapOlustur(path,sayfaAdi));
+        System.out.println(ReusableMethods_Excel.mapOlustur(path,sayfaAdi));
 
 
 
         //oluşturdugumuz map i kullanarak ülke ismi Turkey in bilgilerini yazdırın
 
-        Map<String,String> ulkelerMap=ReusableMethods.mapOlustur(path,sayfaAdi);
+        Map<String,String> ulkelerMap= ReusableMethods_Excel.mapOlustur(path,sayfaAdi);
 
         System.out.println(ulkelerMap.get("Turkey"));
 
