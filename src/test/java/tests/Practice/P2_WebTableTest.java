@@ -4,10 +4,10 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 import pages.P2_WebTablePage;
 import utilities.Driver;
+import utilities.TestBaseRapor;
 
 
-
-public class P2_WebTableTest {
+public class P2_WebTableTest  extends TestBaseRapor {
 
     /*
    go to url : https://en.wikipedia.org/wiki/Dell
@@ -19,6 +19,8 @@ public class P2_WebTableTest {
 
     @Test
     public void tableTest(){
+        extentTest = extentReports.createTest("", "drag-drop Test");
+
         Driver.getDriver().get("https://en.wikipedia.org/wiki/Dell");
         P2_WebTablePage p2_webTablePage = new P2_WebTablePage();
         JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();

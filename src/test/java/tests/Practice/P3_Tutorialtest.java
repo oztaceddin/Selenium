@@ -6,8 +6,9 @@ import org.testng.annotations.Test;
 import pages.P3_TutorialPage;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.TestBaseRapor;
 
-public class P3_Tutorialtest {
+public class P3_Tutorialtest extends TestBaseRapor {
 
 //~ url'ye gidin: "http://tutorialsninja.com/demo/index.php?route=common/home"
 //~ Phones & PDAs e tıklayın

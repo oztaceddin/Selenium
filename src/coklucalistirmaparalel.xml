@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="coklu calistirma sirali" parallel="classes" thread-count="2">
+
+    <test name="sirali farkli browser ile calistirma">
+
+        <packages>
+
+            <package name="tests.crossBrowseTests"></package>
+
+        </packages>
+
+    </test>
+
+</suite>
